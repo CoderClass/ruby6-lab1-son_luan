@@ -1,2 +1,5 @@
-@import "bootstrap";
-@import "home";
+
+// file: app/assets/stylesheets/application.scss
+@import "bootstrap"; // required by bootstrap
+@import "home";     // load css from home.scss
+@import "photos";   // load css from photos.scss
